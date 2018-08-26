@@ -1,0 +1,14 @@
+{
+  "generator-chisel": {
+    "config": {
+      "name": "Hangover",
+      "author": "jackmerrell",
+      "projectType": "fe",
+      "nameSlug": "hangover",
+      "nameCamel": "Hangover",
+      "chiselVersion": "0.14.0",
+      "has_jquery": true,
+      "has_jquery_vendor_config": true
+    }
+  }
+}
