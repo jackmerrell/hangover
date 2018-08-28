@@ -5,6 +5,7 @@
   <title>{{ pageName }} - Hangover</title>
   <link rel="stylesheet" property="stylesheet" href="{{ revisionedPath('styles/main.css') }}" type="text/css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One" rel="stylesheet">
   <script>document.querySelector('html').classList.remove('no-js');</script>
   {% if hasVendor() %}
     <script src="{{ revisionedPath('scripts/vendor.js') }}" defer></script>
@@ -25,10 +26,8 @@
 </head>
 
 <body class="{{body_class}}">
-  {% block header %}
-    {% include 'components/header.twig' %}
-  {% endblock %}
-  
+
+
 
   <main class="o-wrapper">
     {% block content %}
@@ -36,8 +35,6 @@
     {% endblock %}
   </main>
 
-  {% block footer %}
-    {% include 'components/footer.twig' %}
-  {% endblock %}
+
 </body>
 </html>

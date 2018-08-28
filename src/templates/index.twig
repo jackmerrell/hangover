@@ -2,7 +2,17 @@
 {% set pageName = 'index' %}
 
 {% block content %}
-  <h1>Hello <span class="js-greeting"></span></h1>
+
+  <section>
+    <form class="checklist" autocomplete="off">
+      <h1>Hangover Checklist</h1>
+      <ol>
+        <li><input id="item1" name="item1" type="checkbox"><label for="item1"><span>💦</span></label></li>
+        <li><input id="item2" name="item2" type="checkbox"><label for="item2"><span>💩</span></label></li>
+        <li><input id="item3" name="item3" type="checkbox"><label for="item3"><span>🥤</span></label></li>
+        <li><input id="item4" name="item4" type="checkbox"><label for="item4"><span>🍳</span></label></li>
+      </ol>
+    </form>
+  </section>
+
 {% endblock %}
-
-
